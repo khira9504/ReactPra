@@ -4,6 +4,7 @@ import App from './App';
 import ErrorPage from "./error-page";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import R01 from './pages/r01';
+import R02 from './pages/r02';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/r01",
     element: <R01 />
+  },
+  {
+    path: "/r02",
+    element: <R02 />
   }
 ]);
 

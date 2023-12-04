@@ -15,6 +15,7 @@ export default function App() {
       <nav> 
         <ul>
           <List><a href={`/r01`}>r01</a></List>
+          <List><a href={`/r02`}>r02</a></List>
         </ul>
       </nav>  
     </div>
