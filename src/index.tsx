@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import R01 from './pages/r01';
 import R02 from './pages/r02';
 import R03 from './pages/r03';
+import R04 from './pages/r04';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/r03",
     element: <R03 />
+  },
+  {
+    path: "/r04",
+    element: <R04 />
   },
 ]);
 

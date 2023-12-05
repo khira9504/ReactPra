@@ -18,6 +18,7 @@ export default function App() {
           <List><a href={`/r01`}>HelloWorld(r01)</a></List>
           <List><a href={`/r02`}>Counter(r02)</a></List>
           <List><a href={`/r03`}>TodoList(r03)</a></List>
+          <List><a href={`/r04`}>Timer(r04)</a></List>
         </ul>
       </nav>  
     </div>
